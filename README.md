@@ -36,7 +36,13 @@ If you are interested in Solarwinds programming, there is easy to use software d
 
 If you have any problem to run this code, or any suggestion to develop this, you can reach me via st.sadik.turgut@gmail.com
 
-Installation Environment
+>## Important Notice
+>This tool uses Management Port Ip Addresses of your switches in Cisco ACI Fabric
+>If you monitor your fabric inline mode, this tool will not be effective.
+
+
+
+### Installation Environment
 
 Required
 
@@ -68,7 +74,7 @@ If you have two versions of python on your platform, please be sure what command
 
 python3 -m pip install -r requirements.txt
 
-Usage
+### Usage
 
 First be sure, can you reach our ACI ip address over where this code placed, Let's say your ACI web url https://A.B.C.D/#, you will use A.B.C.D(of course, this is an ip address) If you reach your ACI web GUI with url like https://ourACIonProdorWhatever.domain.com/#, try to ping this section 'ourACIonProdorWhatever.domain.com' to get ip address of your ACI Web address. In fact, you can use 'ourACIonProdorWhatever.domain.com' as a credential though to code, but, sometimes, script can not use dns services, and I am not suggest or solve that yet,
 
