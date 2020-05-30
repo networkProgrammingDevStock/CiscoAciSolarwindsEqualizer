@@ -88,7 +88,7 @@ There are two modes of operation in ACI-Solarwinds Equalizer,
 
     to run Equalizer in 'up' mode,
 
-python ACI_Scanner.py --ip_aci IP_ADDRESS_OF_YOUR_ACI --username_aci YourACI_Username --password_aci YourACI_Password --ip_solar IP_ADDRESS_OF_YOUR_SOLARWINDS --username_solar YourSOLARWINDS_Username --password_solar YourSOLARWINDS_Password --mode up
+python Equalizer.py --ip_aci IP_ADDRESS_OF_YOUR_ACI --username_aci YourACI_Username --password_aci YourACI_Password --ip_solar IP_ADDRESS_OF_YOUR_SOLARWINDS --username_solar YourSOLARWINDS_Username --password_solar YourSOLARWINDS_Password --mode up
 
     after running that you will outputs like:
 
@@ -185,7 +185,7 @@ Process take 123.456789 seconds to complete
 
    to run Equalizer in 'configured' mode,
 
-python ACI_Scanner.py --ip_aci IP_ADDRESS_OF_YOUR_ACI --username_aci YourACI_Username --password_aci YourACI_Password --ip_solar IP_ADDRESS_OF_YOUR_SOLARWINDS --username_solar YourSOLARWINDS_Username --password_solar YourSOLARWINDS_Password --mode configured
+python Equalizer.py --ip_aci IP_ADDRESS_OF_YOUR_ACI --username_aci YourACI_Username --password_aci YourACI_Password --ip_solar IP_ADDRESS_OF_YOUR_SOLARWINDS --username_solar YourSOLARWINDS_Username --password_solar YourSOLARWINDS_Password --mode configured
 
    after running that you will outputs like:
 
