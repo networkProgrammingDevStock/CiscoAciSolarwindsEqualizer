@@ -71,6 +71,7 @@ python3 -m pip install -r requirements.txt
 Usage
 
 First be sure, can you reach our ACI ip address over where this code placed, Let's say your ACI web url https://A.B.C.D/#, you will use A.B.C.D(of course, this is an ip address) If you reach your ACI web GUI with url like https://ourACIonProdorWhatever.domain.com/#, try to ping this section 'ourACIonProdorWhatever.domain.com' to get ip address of your ACI Web address. In fact, you can use 'ourACIonProdorWhatever.domain.com' as a credential though to code, but, sometimes, script can not use dns services, and I am not suggest or solve that yet,
+
 After being sure about your ACI credentials, you have to obtain Solarwinds swiss api, you can get some help from your monitoring system guy for this information, because the url, you are using the reach Solarwinds Orion is not resolved the ip address, you are looking for,
 
 There are two modes of operation in ACI-Solarwinds Equalizer,
@@ -174,13 +175,13 @@ Process take 123.456789 seconds to complete
 
 2- CONFIGURED mode: this 'configured' word means that an interface has deployed EPG, also, port-channel interfaces. The reason behind the inclusion of port-channels, although you can not obtain deployed epg information of port-channels, we all know a port-channel was not configured automatically, You can get all of unmonitored configured interfaces of Fabric in Solarwinds in a way:
 
-    change to directory with 'cd CiscoAciSolarwindsEqualizer'
+   change to directory with 'cd CiscoAciSolarwindsEqualizer'
 
-    to run Equalizer in 'up' mode,
+   to run Equalizer in 'configured' mode,
 
 python ACI_Scanner.py --ip_aci IP_ADDRESS_OF_YOUR_ACI --username_aci YourACI_Username --password_aci YourACI_Password --ip_solar IP_ADDRESS_OF_YOUR_SOLARWINDS --username_solar YourSOLARWINDS_Username --password_solar YourSOLARWINDS_Password --mode configured
 
-    after running that you will outputs like:
+   after running that you will outputs like:
 
 Libraries are imported
 
