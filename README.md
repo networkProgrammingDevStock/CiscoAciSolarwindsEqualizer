@@ -86,48 +86,91 @@ python ACI_Scanner.py --ip_aci IP_ADDRESS_OF_YOUR_ACI --username_aci YourACI_Use
     after running that you will outputs like:
 
 Libraries are imported
+
 THERE WILL BE A HASH TEXT ON HERE TO SHOW YOU TOKEN
+
 ('You are authenticated to Apic on ', u'IP_ADDRESS_OF_YOUR_ACI')
+
 Login process to Apic on IP_ADDRESS_OF_YOUR_ACI is finished
+
 Digging interfaces for Leaf2
+
 Digging interfaces for Leaf1
+
 Digging interfaces for Spine2
+
 Digging interfaces for Spine1
+
 Getting solarwinds information of Leaf2
+
 Step 1 for Leaf2_IP
+
 NodeID of Leaf2_IP is Leaf2_SolarwindsNodeID
+
 Step 2 for Leaf2_IP
+
 Done for Leaf2_IP
+
 Getting solarwinds information of Leaf1
+
 Step 1 for Leaf1_IP
+
 NodeID of Leaf1_IP is Leaf1_SolarwindsNodeID
+
 Step 2 for Leaf1_IP
+
 Done for Leaf1_IP
+
 Getting solarwinds information of Spine1
+
 Step 1 for Spine1_IP
+
 NodeID of Spine1_IP is Spine1_SolarwindsNodeID
+
 Step 2 for Spine1_IP
+
 Done for Spine1_IP
+
 Getting solarwinds information of Spine2
+
 Step 1 for Spine2_IP
+
 NodeID of Spine2_IP is Spine2_SolarwindsNodeID
+
 Step 2 for Spine2_IP
+
 Done for Spine2_IP
+
 Pod name is pod-1
+
 Interface must be monitored in Solarwinds*****************************************************************************************
+
 Pod name is pod-WhateverYouConfigured
+
         Interfaces have to be monitored in Leaf2(Leaf2_IP)
+	
         Interfaces have to be monitored in Leaf1(Leaf1_IP)
+	
 				port-channelX  up      up       Last State Change: 2001-02-03
+				
         Interfaces have to be monitored in Spine1(Spine1_IP)
+	
         Interfaces have to be monitored in Spine2(Spine2_IP)
+	
 				EthernetY/Z	   up      up       Last State Change: 2004-05-06 Deployed epg:3
+				
 Result obtained from UP PORT MODE:
+
 You have 0 unmonitored devices,
+
  2 unmonitored port and in ACI located on ip IP_ADDRESS_OF_YOUR_ACI
+ 
 Count of device without obtained management ip address is 0
+
 Solar state faulty interface count is 0
+
 Process take 123.456789 seconds to complete
+
 
 2- CONFIGURED mode: this 'configured' word means that an interface has deployed EPG, also, port-channel interfaces. The reason behind the inclusion of port-channels, although you can not obtain deployed epg information of port-channels, we all know a port-channel was not configured automatically, You can get all of unmonitored configured interfaces of Fabric in Solarwinds in a way:
 
@@ -140,46 +183,90 @@ python ACI_Scanner.py --ip_aci IP_ADDRESS_OF_YOUR_ACI --username_aci YourACI_Use
     after running that you will outputs like:
 
 Libraries are imported
+
 THERE WILL BE A HASH TEXT ON HERE TO SHOW YOU TOKEN
+
 ('You are authenticated to Apic on ', u'IP_ADDRESS_OF_YOUR_ACI')
+
 Login process to Apic on IP_ADDRESS_OF_YOUR_ACI is finished
+
 Digging interfaces for Leaf2
+
 Digging interfaces for Leaf1
+
 Digging interfaces for Spine2
+
 Digging interfaces for Spine1
+
 Getting solarwinds information of Leaf2
+
 Step 1 for Leaf2_IP
+
 NodeID of Leaf2_IP is Leaf2_SolarwindsNodeID
+
 Step 2 for Leaf2_IP
+
 Done for Leaf2_IP
+
 Getting solarwinds information of Leaf1
+
 Step 1 for Leaf1_IP
+
 NodeID of Leaf1_IP is Leaf1_SolarwindsNodeID
+
 Step 2 for Leaf1_IP
+
 Done for Leaf1_IP
+
 Getting solarwinds information of Spine1
+
 Step 1 for Spine1_IP
+
 NodeID of Spine1_IP is Spine1_SolarwindsNodeID
+
 Step 2 for Spine1_IP
+
 Done for Spine1_IP
+
 Getting solarwinds information of Spine2
+
 Step 1 for Spine2_IP
+
 NodeID of Spine2_IP is Spine2_SolarwindsNodeID
+
 Step 2 for Spine2_IP
+
 Done for Spine2_IP
+
 Pod name is pod-1
+
 Interface must be monitored in Solarwinds*****************************************************************************************
+
 Pod name is pod-WhateverYouConfigured
+
         Interfaces have to be monitored in Leaf2(Leaf2_IP)
+	
         Interfaces have to be monitored in Leaf1(Leaf1_IP)
+	
 				port-channelX  up      down       Last State Change: 2001-02-03
+				
         Interfaces have to be monitored in Spine1(Spine1_IP)
+	
 				EthernetQ/W	   up      down       Last State Change: 2004-05-06 Deployed epg:5
+				
         Interfaces have to be monitored in Spine2(Spine2_IP)
+	
 				EthernetY/Z	   up      up       Last State Change: 2004-05-06 Deployed epg:3
+				
 Result obtained from CONFIGURED PORT MODE:
+
 You have 0 unmonitored devices,
+
  3 unmonitored port and in ACI located on ip IP_ADDRESS_OF_YOUR_ACI
+ 
 Count of device without obtained management ip address is 0
+
 Solar state faulty interface count is 0
+
 Process take 123.456789 seconds to complete
+
