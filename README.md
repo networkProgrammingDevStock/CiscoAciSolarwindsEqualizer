@@ -54,17 +54,25 @@ Git (to install from github)
 
 Downloading and installing
 
-Just clone this repo on your platform
+Just clone this repo on your platform:
 
-git clone https://github.com/networkProgrammingDevStock/CiscoAciSolarwindsEqualizer.git
+    git clone https://github.com/networkProgrammingDevStock/CiscoAciSolarwindsEqualizer.git
 
-and go to project folder
+and go to project folder:
 
-cd CiscoAciSolarwindsEqualizer
+    cd CiscoAciSolarwindsEqualizer
+
+for playing in a temporary environment, we create a virtual environment:
+
+    python3 -m venv venv
+
+and then, activate this virtual environment:
+
+    source venv/bin/activate
 
 Sure you can use pip to install some additional packages:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 if you are using Windows, and you add python do batch, means you can run python from command prompt, try this
 
