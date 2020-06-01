@@ -60,7 +60,7 @@ git clone https://github.com/networkProgrammingDevStock/CiscoAciSolarwindsEquali
 
 and go to project folder
 
-cd CiscoACI
+cd CiscoAciSolarwindsEqualizer
 
 Sure you can use pip to install some additional packages:
 
