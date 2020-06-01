@@ -37,8 +37,8 @@ If you are interested in Solarwinds programming, there is easy to use software d
 If you have any problem to run this code, or any suggestion to develop this, you can reach me via st.sadik.turgut@gmail.com
 
 >## Important Notice
->This tool uses Management Port Ip Addresses of your switches in Cisco ACI Fabric
->If you monitor your fabric inline mode, this tool will not be effective.
+>This tool uses Management Port Ip Addresses of your switches in Cisco ACI Fabric,
+>if you monitor your fabric inline mode, this tool will not be effective.
 
 
 
