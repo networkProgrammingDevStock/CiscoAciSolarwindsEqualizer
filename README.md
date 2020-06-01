@@ -76,11 +76,11 @@ Sure you can use pip to install some additional packages:
 
 if you are using Windows, and you add python do batch, means you can run python from command prompt, try this
 
-python -m pip install -r requirements.txt
+    python -m pip install -r requirements.txt
 
 If you have two versions of python on your platform, please be sure what command to get in python3, Sometimes, keyword 'python' can call python3 idle, and sometimes that can be 'python3'. If 'python3' calls the newer version of python, use line as below,
 
-python3 -m pip install -r requirements.txt
+    python3 -m pip install -r requirements.txt
 
 ### Usage
 
