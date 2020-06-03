@@ -1,6 +1,8 @@
 # CiscoAciSolarwindsEqualizer
 Original Author: Sadık Turgut - st.sadik.turgut@gmail.com
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/networkProgrammingDevStock/CiscoAciSolarwindsEqualizer)
+
 Description
 
 ACI-Solarwinds Equalizer is a tool that mainly purpose to report unmonitored interfaces of Cisco ACI Fabric in Solarwinds.
